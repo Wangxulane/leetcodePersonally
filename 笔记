@@ -1,0 +1,11 @@
+在.gitignore中添加忽略文件
+#用于注释
+\ 用于转义
+* 用于通配符
+? 用于单个字符    如a?b  可以匹配到ab,acb,adb
+[] 用于指定范围   如a[mn]z  可以匹配到az,amz,anz
+** 用于递归匹配   如a/**/z  可以匹配到a/b/c/z,a/b/z,a/z
+! 用于排除       如!important.txt  可以匹配到除了important.txt之外的所有文件
+忽略文件
+*.txt
+! important.txt  
