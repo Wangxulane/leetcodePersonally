@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 
 int firstDayBeenInAllRooms(int* nextVisit, int nextVisitSize) {
     int day = 0;
@@ -21,5 +22,6 @@ int firstDayBeenInAllRooms(int* nextVisit, int nextVisitSize) {
         }
     }
     free(count);
+    day %= 1000000007;
     return day;
 }
