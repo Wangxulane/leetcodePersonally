@@ -3,7 +3,6 @@
 
 int minimumAddedCoins(int* coins, int coinsSize, int target) {
     coins=sortcoins(coins,coinsSize);
-    
 }
 
 // 冒泡排序
